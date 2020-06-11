@@ -16,11 +16,6 @@ const questions = [
     },
     {
         type: "input",
-        name: "table",
-        message: "Please provide your project's Table of Contents"
-    },
-    {
-        type: "input",
         name: "installation",
         message: "Please provide the installation instructions"
     },
@@ -82,13 +77,6 @@ inquirer
         });
 
 });
-
-
-
-function writeToFile(fileName, data) {
-    
-}
-
 
 function init() {
 

@@ -9,7 +9,15 @@ ${data.description}
 
 ## Table of contents
 
-        ${data.table}
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Licence](#Licence)
+- [Contributors](#Contributors)
+- [Test](#Test)
+- [Repository Link](#Repository)
+- [GitHub Info](#GitHub) 
+
 
 ## Installation
 
@@ -27,16 +35,16 @@ ${data.usage}
 
 ${data.contributing}
 
-## Tests
+## Test
 
 ${data.test}
 
 
-## Repository Link
+## Repository
 
 - [Project Repo](${data.repo})
 
-## GitHub Info 
+## GitHub
 
 ![Image of me](${githubInfo.githubImage})
 - ${githubInfo.name}
