@@ -70,9 +70,7 @@ inquirer
                 name: res.data.name
             };
             
-          var fileName = data.title.toLowerCase().split(' ').join('') + ".md";
-
-          fs.writeFile(fileName, generate(data, githubInfo), function(err) {
+          fs.writeFile("README.md", generate(data, githubInfo), function(err) {
             if (err) {
               throw err;
             };
