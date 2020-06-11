@@ -3,6 +3,8 @@ function generateMarkdown(data, githubInfo) {
   return `
 # **${data.title}**
 
+${data.badge}
+
 ## Description 
 
 ${data.description}
@@ -29,7 +31,7 @@ ${data.usage}
 
 ## Licence
 
-        ${data.licence}
+${data.licence}
 
 ## Contributors
 

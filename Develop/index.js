@@ -11,6 +11,11 @@ const questions = [
     },
     {
         type: "input",
+        name: "badge",
+        message: "Please provide the badges links that you want"
+    },
+    {
+        type: "input",
         name: "description",
         message: "Please provide your project's description"
     },
@@ -27,7 +32,7 @@ const questions = [
     {
         type: "input",
         name: "licence",
-        message: "Please provide the project licence"
+        message: "Please provide the project licence or your badge link"
     },
     {
         type: "input",
@@ -48,7 +53,7 @@ const questions = [
         type: "input",
         name: "repo",
         message: "What is your repo link?"
-    }
+    },
 ];
 
 inquirer
